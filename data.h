@@ -1,8 +1,7 @@
 /*
  * Author: Kyle Honke
- * Final Project: Graphs
- * Purpose: Create a working undirected unweighted graph class with all the standard methods for 
- *  a data structure of that type.
+ * Project: The Graph Data Structure
+ * Purpose: 'Data' is a struct which stores information in a vertex (node) 
  * File: data.h
  */
 
