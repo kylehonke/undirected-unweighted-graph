@@ -1,8 +1,7 @@
 /*
  * Author: Kyle Honke
- * Final Project: Graphs
- * Purpose: Create a working undirected unweighted graph class with all the standard methods for 
- *  a data structure of that type 
+ * Project: The 'Graph' Data Structure
+ * Purpose: 'main' is used solely to perform a series of manual and random tests on the graph class
  * File: main.cpp
  */
 
