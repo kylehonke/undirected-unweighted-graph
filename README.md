@@ -9,5 +9,5 @@ This program will:
 The graph is implemented using the adjacency matrix approach. The 2D vector 'adjacencyMatrix' stores the edges between nodes, allowing the graph to grow/ shrink to any size.
 
 Graph Traversal:
-Depth-First - The recursive approach to Depth-First Search (DFS) involves calling a function repeatedly until all nodes are visited.
-Breadth-First - The program demonstrates BFS (Breadth-First Search) using a queue data structure.
+- Depth-First: The recursive approach to Depth-First Search (DFS) involves calling a function repeatedly until all nodes are visited.
+- Breadth-First: The program demonstrates BFS (Breadth-First Search) using a queue data structure.
