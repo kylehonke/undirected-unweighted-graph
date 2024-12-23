@@ -1,12 +1,13 @@
 /*
  * Author: Kyle Honke
- * Final Project: Graphs
- * Purpose: Create a working undirected unweighted graph class with all the standard methods for 
+ * Project: The 'Graph' Data Structure
+ * Purpose: Create an undirected, unweighted graph class with all the standard methods for 
  *  a data structure of that type.
  * File: graph.cpp
  */
 
 #include "graph.h"
+
 
 /************************************
  * Constructor & Destructor
@@ -19,6 +20,7 @@ Graph::Graph() {
 Graph::~Graph() {
     clearGraph();
 }
+
 
 /************************************
  * Public methods & attributes
@@ -214,6 +216,7 @@ void Graph::clearGraph() {
     adjacencyMatrix.clear();
 }
 
+
 /*
  * The following public methods call private overloads:
  */
@@ -237,6 +240,7 @@ void Graph::breadthFirstTraversal(int startId) {
     std::vector<bool> visited(getVertexCount(), false);
     breadthFirstTraversal(startId, visited);
 }
+
 
 /************************************
  * Private methods & attributes
