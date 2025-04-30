@@ -4,6 +4,7 @@ Graph Data Structure (C++)
 A graph is a non-linear data structure consisting of nodes and edges. Nodes (also called vertices) are the fundamental units of a graph that represent objects or entities. Edges represent the connections or relationships between vertices. Put simply, graphs are used to model relationships between different entities.
 
 Undirected: Edges have no direction, meaning the connection between vertices A and B is bidirectional (if A is connected to B, then B is connected to A).
+
 Unweighted: Edges have no weight or value associated with them, meaning they do not have a specific numerical value that represents their importance or significance.
 
 ### This program will:
@@ -18,5 +19,7 @@ Unweighted: Edges have no weight or value associated with them, meaning they do 
 
 ### Usage
 Prerequisites: C++11 or later, g++ compiler
+
 Compile: g++ -I ./ *.cpp
+
 Run: Run the executable file.
